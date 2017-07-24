@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 // Перегрузка операций на примере класса Cyborg состоящего из элементов.
+// Для примера взят класс киборг, по смыслу такой же как перегружать операторы условной машины - бессмысленно.
+// Но точки и прямоугольники уже надоели.
 
 namespace T11_operatorOverride_01
 {
@@ -36,6 +38,13 @@ namespace T11_operatorOverride_01
             c3 += c1;
             Console.WriteLine(c3.ToString());
             Console.WriteLine(c3.GetHashCode());
+
+            // проверяем > < == !=
+            Console.WriteLine(c1>c2);
+            Console.WriteLine(c1 < c2);
+
+            Console.WriteLine(c1 == c2);
+            Console.WriteLine(c1 != c2);
 
             Console.ReadLine();
         }

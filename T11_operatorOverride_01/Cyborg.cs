@@ -59,5 +59,31 @@ namespace T11_operatorOverride_01
             return c1;
         }
 
+        public static bool operator >(Cyborg c1, Cyborg c2)
+        {
+            if (c1.bodyParts.Count > c2.bodyParts.Count)
+                return true;
+            return false;
+        }
+        public static bool operator <(Cyborg c1, Cyborg c2)
+        {
+            if (c1.bodyParts.Count < c2.bodyParts.Count)
+                return true;
+            return false;
+        }
+
+        public static bool operator ==(Cyborg c1, Cyborg c2)
+        {
+            if (c1.bodyParts.Count == c2.bodyParts.Count)
+                return true;
+            return false;
+        }
+
+        public static bool operator !=(Cyborg c1, Cyborg c2)
+        {
+            if (c1.bodyParts.Count != c2.bodyParts.Count)
+                return true;
+            return false;
+        }
     }
 }
