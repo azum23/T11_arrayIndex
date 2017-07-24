@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{129AB939-CC29-4B23-827B-0F0DA81AE93C}</ProjectGuid>
+    <ProjectGuid>{EDD340A0-B14D-4210-BC0C-4BE8772A2AEE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>T11_arrayIndex_01</RootNamespace>
-    <AssemblyName>T11_arrayIndex_01</AssemblyName>
+    <RootNamespace>T11_operatorOverride_01</RootNamespace>
+    <AssemblyName>T11_operatorOverride_01</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductList.cs" />
+    <Compile Include="Cyborg.cs" />
+    <Compile Include="Element.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
