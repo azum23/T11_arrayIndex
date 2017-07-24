@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T11_Cast_01", "T11_Cast_01\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T11_ExtentionMethods", "T11_ExtentionMethods\T11_ExtentionMethods.csproj", "{10847020-FAD3-44EC-9197-81C94BA36CF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T11_InterfaceExtention", "T11_InterfaceExtention\T11_InterfaceExtention.csproj", "{C6868083-A2D9-4311-995A-E6D7AF03FB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{10847020-FAD3-44EC-9197-81C94BA36CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10847020-FAD3-44EC-9197-81C94BA36CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10847020-FAD3-44EC-9197-81C94BA36CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6868083-A2D9-4311-995A-E6D7AF03FB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6868083-A2D9-4311-995A-E6D7AF03FB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6868083-A2D9-4311-995A-E6D7AF03FB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6868083-A2D9-4311-995A-E6D7AF03FB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
